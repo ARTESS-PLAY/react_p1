@@ -23,8 +23,6 @@ function ListCat({products}) {
         }
     });
 
-    console.log(sortedProducts);
-
     return (
         <table>
             <thead>
