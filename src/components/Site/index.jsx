@@ -1,10 +1,12 @@
 import React from 'react';
 import Search from '../Search';
+import ListCat from '../ListCat';
 
-function Site() {
+function Site({products}) {
     return (
         <div>
             <Search></Search>
+            <ListCat products={products}></ListCat>
         </div>
     );
 }

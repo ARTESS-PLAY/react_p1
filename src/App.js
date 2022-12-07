@@ -1,5 +1,4 @@
 import Site from "./components/Site";
-import ListCat from "./components/ListCat";
 
 function App() {
 
@@ -15,8 +14,7 @@ function App() {
 
   return (
     <div className="App">
-        <Site></Site>
-        <ListCat products={products}></ListCat>
+        <Site products={products}></Site>
     </div>
   );
 }
